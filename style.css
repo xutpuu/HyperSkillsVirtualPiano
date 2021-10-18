@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 80%;
+    width: 100%;
+    background: orange;
+
+}
+
+.container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.white-keys kbd{
+    display: inline-block;
+    height: 80px;
+    width: 50px;
+    background: white;
+    border: 1px solid aqua;
+    text-align: center;
+    vertical-align: text-bottom ;
+    z-index: 0;
+}
+
+.black-keys kbd{
+    display: inline-block;
+    height: 60px;
+    width: 30px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    vertical-align: bottom ;
+}
+
+#w #e #t #y #u {
+    position: absolute;
+    z-index: 2;
+}
