@@ -1,45 +1,61 @@
-html {
-    height: 100%;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    height: 80%;
-    width: 100%;
+    padding: 0;
+    margin: 0;
     background: orange;
 
 }
 
-.container{
-    width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+.container {
+    position: relative;
+    width: 28rem;
+    margin: 10% auto;
 }
 
-.white-keys kbd{
-    display: inline-block;
-    height: 80px;
-    width: 50px;
+.white-keys kbd {
     background: white;
-    border: 1px solid aqua;
+    display: inline-block;
+    width: 4rem;
+    font-size: 2rem;
     text-align: center;
-    vertical-align: text-bottom ;
-    z-index: 0;
+    margin-left: -4px;
+    border: 1px solid wheat;
+    padding-top: 5rem;
 }
 
-.black-keys kbd{
+.black-keys kbd {
     display: inline-block;
-    height: 60px;
-    width: 30px;
-    background: black;
-    border: 1px solid black;
+    background-color: black;
+    width: 2rem;
+    padding: 2.5rem 0 1rem 0;
     color: white;
     text-align: center;
-    vertical-align: bottom ;
 }
 
-#w #e #t #y #u {
+.black-keys {
     position: absolute;
-    z-index: 2;
+    top: 0;
+}
+
+#w {
+    margin-left: 2.8rem;
+}
+
+#e {
+    margin-left: 1.8rem;
+}
+
+#t {
+    margin-left: 5.6rem;
+}
+
+#y {
+    margin-left: 1.8rem;
+}
+
+#u {
+    margin-left: 1.8rem;
 }
